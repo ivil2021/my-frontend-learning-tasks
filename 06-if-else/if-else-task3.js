@@ -13,11 +13,11 @@
 function checkTime(currentTime) {
     if (currentTime <= 5) {
         console.log("Доброй ночи");
-    } else if (6 <= currentTime <= 11) {
+    } else if (currentTime >= 6 && currentTime <= 11) {
         console.log("Доброе утро");
-    } else if (12 <= currentTime <= 17) {
+    } else if (currentTime >= 12 && currentTime <= 17) {
         console.log("Добрый день");
-    } else if (18 <= currentTime <= 23) {
+    } else if (currentTime >= 18 && currentTime <= 23) {
         console.log("Добрый вечер");
     }
 }
